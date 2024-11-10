@@ -1,0 +1,17 @@
+.font-bold {
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+}
+
+.post-list {
+    margin-top: 10px;
+    overflow: auto;
+    max-height: 90vh;
+}
+
+.form-select {
+    cursor: pointer;
+}
