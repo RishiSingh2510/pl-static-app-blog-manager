@@ -1,0 +1,1 @@
+# pl-static-app-blog-manager
