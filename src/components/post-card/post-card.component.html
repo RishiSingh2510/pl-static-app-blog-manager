@@ -1,0 +1,14 @@
+<div class="card mt-3">
+    <div class="card-body">
+        <p class="card-title h4 mb-2"> {{ post.text }}</p>
+        <div class="d-flex justify-content-between align-items-center">
+            <p class="card-text"><span class="font-bold">Created:</span> {{ post.username }}</p>
+            <p class="card-text"><span class="font-bold">Creation Date:</span> {{ post.createdAt | date }}</p>
+            <div class="d-flex gap-2 justify-content-end">
+                <button class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#blogPost"
+                    (click)="editEmitter.emit()">Edit</button>
+                <button class="btn btn-outline-danger" (click)="deleteEmitter.emit()">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
