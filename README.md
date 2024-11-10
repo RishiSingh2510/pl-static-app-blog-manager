@@ -1,27 +1,47 @@
-# PlStaticAppBlogManagement
+# Blog Manager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+## Setup Instructions
 
-## Development server
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/RishiSingh2510/pl-static-app-blog-manager.git
+    cd pl-static-app-blog-manager
+    ```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-## Code scaffolding
+3. **Run the application:**
+    ```bash
+    ng serve
+    ```
+    Navigate to `http://localhost:4200/` in your browser to see the application.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## How to Run the Application
 
-## Build
+To run the application, use the Angular CLI command:
+```bash
+ng serve
+```
+This will start a development server and you can view the application by navigating to `http://localhost:4200/` in your web browser.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Design Decisions and Application Structure
 
-## Running unit tests
+### Design Decisions
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Modular Architecture:** The application is designed with a modular architecture to ensure scalability and maintainability.
+- **Shared Services:** Services are shared across different components to promote reusability and reduce code duplication.
+- **Interfaces:** TypeScript interfaces are used to define the structure of data models, ensuring type safety and consistency.
+- **Pipes:** Custom pipes are implemented to handle data transformation and formatting within templates.
 
-## Running end-to-end tests
+### Application Structure
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **src/app:** Contains the main application module and component files.
+- **src/app/services:** Contains shared services used across the application.
+- **src/app/interfaces:** Contains TypeScript interfaces for data models.
+- **src/app/pipes:** Contains custom pipes for data transformation.
+- **src/assets:** Contains static assets such as images and styles.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+For more details, refer to the [repository](https://github.com/RishiSingh2510/pl-static-app-blog-manager.git).
